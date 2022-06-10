@@ -1,5 +1,6 @@
 import React from 'react';
 import portfolio from '../../../images/logo/portfolio.png'
+import resume from '../../../images/rashedsabbir_resume (1).pdf'
 
 const Header = () => {
     
@@ -34,7 +35,7 @@ const Header = () => {
       </a>
     </div>
     <div>
-      <a href="https://drive.google.com/file/d/1z8dGKRaPVVWnlWiu5sVcOAja88XQr3cr/view" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download Resume</a>
+      <a href={resume} class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0" download="resume.pdf">Download Resume</a>
     </div>
   </div>
 </nav>

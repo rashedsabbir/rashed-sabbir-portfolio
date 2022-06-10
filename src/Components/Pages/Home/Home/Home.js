@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../../../Shared/Header/Header';
-import Projects from '../Projects/Projects';
+
+import Projects from '../Project/Projects';
+
 
 const Home = () => {
     return (
