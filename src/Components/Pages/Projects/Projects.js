@@ -19,6 +19,7 @@ const Projects = ({ home }) => {
 
     return (
         <Box>
+            <h2 className='text-teal-500 text-4xl pt-4 font-bold '>My Projects</h2>
             <Grid mx='auto' container xs={8} md={12}>
 
                 {

@@ -7,6 +7,7 @@ import Header from './Components/Shared/Header/Header';
 import Projects from './Components/Pages/Projects/Projects';
 import About from './Components/Pages/About/About';
 import Blogs from './Components/Pages/Blogs/Blogs';
+import Footer from './Components/Shared/Footer/Footer';
 
 
 
@@ -39,7 +40,7 @@ function App() {
             <Projects></Projects>
           </Route>
         </Switch>
-    
+    <Footer></Footer>
     </Router>
     </div>
   );
