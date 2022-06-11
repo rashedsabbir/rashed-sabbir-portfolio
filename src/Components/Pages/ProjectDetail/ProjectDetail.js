@@ -8,7 +8,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
-import { Button, Grid } from '@mui/material';
+import { Button, Grid, Paper } from '@mui/material';
 import { Box } from '@mui/system';
 
 
@@ -36,9 +36,9 @@ const ProjectDetail = ({ data, state, setState }) => {
 
                     <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
 
-                        <Button variant='outlined'>
+                        <Button sx={{border: '1px solid white'}} variant='outlined'>
                             <a target='__blank' style={{
-                                textDecoration: 'none', color: '#999'
+                                textDecoration: 'none', color: '#FFFFFF'
                             }} href="https://github.com/rashedsabbir">
                                 Follow Me
                             </a>
@@ -65,28 +65,29 @@ const ProjectDetail = ({ data, state, setState }) => {
 
                     </Grid>
 
-                    <Grid item px={3} xs={12} md={7}>
+                    <Grid item px={3} xs={12} md={7} >
 
-                        <Typography sx={{ my: '4%' }} variant='h3'>
+                        <Paper  sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#009688'}}>
+                        <Typography color='#FFFFFF' sx={{ my: '4%' }} variant='h4'>
                             {name}
                         </Typography>
 
-                        <Typography variant='body' textAlign='justify'>
+                        <Typography variant='body' color='#FFFFFF' sx={{px:'2%'}} textAlign='justify'>
                             {desc}
                         </Typography>
 
-                        <Typography variant='h6' sx={{ my: '1%' }}>
-                            Technolgies Used:
+                        <Typography variant='h6' color='#FFFFFF' sx={{ my: '1%' }}>
+                            Technolgies Used
                         </Typography>
 
-                        <List sx={{ display: 'flex', mb: '3%', flexWrap: 'wrap' }}>
+                        <List sx={{color:'black', display: 'flex', mb: '3%', flexWrap: 'wrap' }}>
                             {
                                 tech.map(el => {
                                     return (
                                         <ListItem sx={{
                                             padding: '1px 1px',
                                             borderRadius: '20px',
-                                            border: '1px solid #00a873',
+                                            border: '1px solid #FFFFFF',
                                             mr: '5px',
                                             textAlign: 'center'
                                         }}>
@@ -99,28 +100,29 @@ const ProjectDetail = ({ data, state, setState }) => {
                             }
                         </List>
 
-                        <Typography variant='h6'>
-                            Links :
+                        <Typography sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}} variant='h6'>
+                            
                             <a style={{
-                                color: 'blue',
-                                mx: '2%', textDecoration: 'none', display: 'block'
-                            }} target='__blank' href={preview}>Livesite</a>
+                                color: 'yellow',
+                                mx: '2%',  textDecoration: 'none',  display: 'block'
+                            }} target='__blank' href={preview}>Live site </a>
 
                             <a style={{
-                                color: 'blue',
+                                color: 'yellow',
                                 mr: '2%', textDecoration: 'none', display: 'block'
-                            }} target='__blank' href={clientSide}>Client Side Code</a>
+                            }} target='__blank' href={clientSide}>Client Side Code </a>
 
                             {
                                 backSide ?
                                     <a style={{
-                                        color: 'blue',
+                                        color: 'yellow',
                                         mr: '2%', textDecoration: 'none', display: 'block'
                                     }} target='__blank' href={backSide}>Server Side Code</a>
                                     :
                                     ''
                             }
                         </Typography>
+                        </Paper>
 
                     </Grid>
 
