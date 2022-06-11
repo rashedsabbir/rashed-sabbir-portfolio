@@ -3,7 +3,7 @@ import Header from '../../../Shared/Header/Header';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
 
-import Projects from '../Project/Projects';
+import Projects from '../../Projects/Projects';
 
 
 const Home = () => {

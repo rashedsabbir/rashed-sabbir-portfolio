@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Chunk Manufacturer",
+        "desc": "It is a car parts manufacturer website where users can order and also pay for it. Admin can make another user admin, remove another user and add new parts. Different dashboards for admin and users, users can give a review.",
+        "tech": [
+            "React",
+            "Express.js",
+            "React-Router",
+            "Headless UI",
+            "daisyUI",
+            "MongoDB",
+            "Firebase-auth"
+        ],
+        "clientSide": "https://github.com/rashedsabbir/Chunk-Manufacturer-Client",
+        "backSide": "https://github.com/rashedsabbir/Chunk-Manufacturer-Server",
+        "preview": "https://chunk-manufacturer.web.app",
+        "img": "https://i.ibb.co/2SKw5gf/project-1.jpg"
+         
+    },
+    {
+        "name": "SareeAloy",
+        "desc": "This website is based on saree warehouse inventory management. Users can add new items, manage all items, check their items and update profiles. There is a separate route for the best supplier in the gallery section.",
+        "tech": [
+            "React",
+            "Express.js",
+            "React-Router",
+            "daisyUI",
+            "MongoDB",
+            "Firebase-auth"
+        ],
+        "clientSide": "https://github.com/rashedsabbir/SareeAloy-Client",
+        "backSide": "https://github.com/rashedsabbir/SareeAloy-Server",
+        "preview": "https://sareealoy.web.app",
+        "img": "https://i.ibb.co/fXL1Qps/projects-2.jpg"
+    },
+    {
+        "name": "Sherpa",
+        "desc": "It is a tour guide website for an independent service provider. Users can log in and book services and also can update and delete booking details. Users can add new destinations and also see testimonials of previous clients.",
+        "tech": [
+            "React",
+            "React-Router",
+            "React Bootstrap",
+            "Firebase-auth",
+            "Javascript"
+        ],
+        "clientSide": "https://github.com/rashedsabbir/Sherpa",
+        "preview": "https://assignment-10-8dff4.web.app",
+        "img": "https://i.ibb.co/r5Wgxg6/project-3.jpg"
+    },
+    {
+        "name": "Product Review",
+        "desc": "Product image with description. Added 3 reviews in home page. All reviews in review page. Blogs route with Question answer",
+        "tech": [
+            "React",
+            "React-Router",
+            "React Bootstrap",
+            "Netlify"
+        ],
+        "clientSide": "https://github.com/rashedsabbir/Product-Review",
+        "preview": "https://keen-starlight-82b2cc.netlify.app",
+        "img": "https://i.ibb.co/mFgbChp/project-5.jpg"
+    },
+    {
+        "name": "Crafts Store Cart",
+        "desc": "This is a crafts store website where user can add products to the cart. Cart will show the selected product quantity and total price also. There is a choose again option to reset the cart.",
+        "tech": [
+            "React",
+            "React Bootstrap",
+            "React-Router",
+            "Netlify"
+        ],
+        "clientSide": "https://github.com/rashedsabbir/Crafts-Store-Cart",
+        "preview": "https://golden-bonbon-75e14d.netlify.app",
+        "img": "https://i.ibb.co/m8sPjD9/project-4.jpg"
+    }
+]
