@@ -1,6 +1,7 @@
 import React from 'react';
 import portfolio from '../../../images/logo/portfolio.png'
-import resume from '../../../images/rashedsabbir_resume (1).pdf'
+import resume from '../../../resume/rashedsabbir_resume.pdf'
+
 
 const Header = () => {
     
@@ -20,18 +21,21 @@ const Header = () => {
     </button>
   </div>
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-    <div class="text-sm lg:flex-grow">
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+    <div class="text-md lg:flex-grow">
+      <a href="/" class=" block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
         Home
       </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      <a href="/about" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
         About
       </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      <a href="/projects" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
         Projects
       </a>
-      <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-        Contact
+      <a href="/contact" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      Contact
+      </a>
+      <a href="/blogs" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+        Blogs
       </a>
     </div>
     <div>
