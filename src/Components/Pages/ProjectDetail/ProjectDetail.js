@@ -11,13 +11,14 @@ import Slide from '@mui/material/Slide';
 import { Button, Grid } from '@mui/material';
 import { Box } from '@mui/system';
 
+
 const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
 });
 
 const ProjectDetail = ({ data, state, setState }) => {
 
-    const { img, name, desc, clientSide, backSide, tech, preview } = data;
+    const { img_1, img_2, img_3, name, desc, clientSide, backSide, tech, preview } = data;
 
     const handleClose = () => {
         setState(false);
@@ -54,13 +55,17 @@ const ProjectDetail = ({ data, state, setState }) => {
                     <Grid item xs={12} md={5}>
 
                         <Box>
-                            <img src={img} style={{ width: '100%' }} alt="" />
+                            <img src={img_1} style={{ width: '100%' }} alt="" />
+                        <br />
+                            <img src={img_2} style={{ width: '100%' }} alt="" />
+                            <br />
+                            <img src={img_3} style={{ width: '100%' }} alt="" />
                             
                         </Box>
 
                     </Grid>
 
-                    <Grid item xs={12} md={7}>
+                    <Grid item px={3} xs={12} md={7}>
 
                         <Typography sx={{ my: '4%' }} variant='h3'>
                             {name}

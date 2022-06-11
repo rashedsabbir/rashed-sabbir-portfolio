@@ -14,7 +14,10 @@
         "clientSide": "https://github.com/rashedsabbir/Chunk-Manufacturer-Client",
         "backSide": "https://github.com/rashedsabbir/Chunk-Manufacturer-Server",
         "preview": "https://chunk-manufacturer.web.app",
-        "img": "https://i.ibb.co/2SKw5gf/project-1.jpg"
+        "img": "https://i.ibb.co/2SKw5gf/project-1.jpg",
+        "img_1": "https://i.ibb.co/zmQ1d4k/a1dcf810-45e9-41e3-bdff-624243c44cd7.png",
+        "img_2": "https://i.ibb.co/fQmTxCV/Opera-Snapshot-2022-06-10-015931-chunk-manufacturer-web-app.png",
+        "img_3": "https://i.ibb.co/d2BH20n/fc69eb6d-7cab-48a3-bc12-2b944e8a737a.png"
          
     },
     {
@@ -31,7 +34,10 @@
         "clientSide": "https://github.com/rashedsabbir/SareeAloy-Client",
         "backSide": "https://github.com/rashedsabbir/SareeAloy-Server",
         "preview": "https://sareealoy.web.app",
-        "img": "https://i.ibb.co/fXL1Qps/projects-2.jpg"
+        "img": "https://i.ibb.co/fXL1Qps/projects-2.jpg",
+        "img_1": "https://i.ibb.co/CvF1ZyB/52bd319e-80db-4d21-9f50-c161638270ef.png",
+        "img_2": "https://i.ibb.co/251vyxX/aced57d7-7d15-4cec-bba5-16e99c395f1e.png",
+        "img_3": "https://i.ibb.co/MGwH3hR/4c4b13fe-4e70-48d1-8345-f167b341663f.png"
     },
     {
         "name": "Sherpa",
@@ -45,7 +51,10 @@
         ],
         "clientSide": "https://github.com/rashedsabbir/Sherpa",
         "preview": "https://assignment-10-8dff4.web.app",
-        "img": "https://i.ibb.co/r5Wgxg6/project-3.jpg"
+        "img": "https://i.ibb.co/r5Wgxg6/project-3.jpg",
+        "img_1": "https://i.ibb.co/RpVvbqN/95747ba3-f241-4708-862f-3cfee38dee32.png",
+        "img_2": "https://i.ibb.co/nPK6H0g/Opera-Snapshot-2022-06-10-123945-assignment-10-8dff4-web-app.png",
+        "img_3": "https://i.ibb.co/ZMQXqKG/Opera-Snapshot-2022-06-10-124013-assignment-10-8dff4-web-app.png"
     },
     {
         "name": "Product Review",
@@ -58,7 +67,10 @@
         ],
         "clientSide": "https://github.com/rashedsabbir/Product-Review",
         "preview": "https://keen-starlight-82b2cc.netlify.app",
-        "img": "https://i.ibb.co/mFgbChp/project-5.jpg"
+        "img": "https://i.ibb.co/mFgbChp/project-5.jpg",
+        "img_1": "https://i.ibb.co/qnGwYQg/screencapture-keen-starlight-82b2cc-netlify-app-home-2022-06-10-14-46-24.png",
+        "img_2": "https://i.ibb.co/KWGdG6y/13505c85-06c2-4c6f-a64e-6de6badc8835.png",
+        "img_3": "https://i.ibb.co/cxCqx3g/01dbaf78-d183-4f4e-95ea-e6977afd43c0.png"
     },
     {
         "name": "Crafts Store Cart",
@@ -71,6 +83,9 @@
         ],
         "clientSide": "https://github.com/rashedsabbir/Crafts-Store-Cart",
         "preview": "https://golden-bonbon-75e14d.netlify.app",
-        "img": "https://i.ibb.co/m8sPjD9/project-4.jpg"
+        "img": "https://i.ibb.co/m8sPjD9/project-4.jpg",
+        "img_1": "https://i.ibb.co/bdKr1q3/screencapture-golden-bonbon-75e14d-netlify-app-2022-06-10-14-47-04.png",
+        "img_2": "https://i.ibb.co/z7Ch2f7/Opera-Snapshot-2022-06-10-145932-golden-bonbon-75e14d-netlify-app.png",
+        "img_3": "https://i.ibb.co/VWmLn4Y/17b67463-f42e-4724-811c-e6a9ffa7d810.png"
     }
 ]
