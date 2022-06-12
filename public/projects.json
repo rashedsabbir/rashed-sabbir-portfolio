@@ -1,7 +1,7 @@
 [
     {
         "name": "Chunk Manufacturer",
-        "desc": "It is a car parts manufacturer website where users can order and also pay for it. Admin can make another user admin, remove another user and add new parts. Different dashboards for admin and users, users can give a review.",
+        "desc": "It is a car parts manufacturer website where users can order and also pay for it. Admin can make another user admin, remove another user, manage all parts and add new parts. Different dashboards for admin and users. Users can give a review and the review will be displayed at the home page. Full website is responsive. Users can update their profile anytime. ",
         "tech": [
             "React",
             "Express.js",
@@ -22,7 +22,7 @@
     },
     {
         "name": "SareeAloy",
-        "desc": "This website is based on saree warehouse inventory management. Users can add new items, manage all items, check their items and update profiles. There is a separate route for the best supplier in the gallery section.",
+        "desc": "This website is based on saree warehouse inventory management. Users can add new items, manage all items, check their items and update profiles. There is a separate route for the best supplier in the gallery section. Users can see products detailed description in the inventory id page. Upon ordering the products quantity will be decreased. Upon adding new products, the quantity will be increased.",
         "tech": [
             "React",
             "Express.js",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Sherpa",
-        "desc": "It is a tour guide website for an independent service provider. Users can log in and book services and also can update and delete booking details. Users can add new destinations and also see testimonials of previous clients.",
+        "desc": "It is a tour guide website for an independent service provider. Users can log in with firebase auth. They can book tour services in the booking section. They can update and delete booking details. Users can add new destinations request. All type of users can see testimonials of previous clients.",
         "tech": [
             "React",
             "React-Router",
@@ -58,7 +58,7 @@
     },
     {
         "name": "Product Review",
-        "desc": "Product image with description. Added 3 reviews in home page. All reviews in review page. Blogs route with Question answer",
+        "desc": "This is a product review based website implemented with react router.This website contains product image with description in the banner section. Randomly selected three reviews are shown in the home page. All six reviews are shown in review page. There is a separate blogs route with Question Answer.",
         "tech": [
             "React",
             "React-Router",
@@ -74,7 +74,7 @@
     },
     {
         "name": "Crafts Store Cart",
-        "desc": "This is a crafts store website where user can add products to the cart. Cart will show the selected product quantity and total price also. There is a choose again option to reset the cart.",
+        "desc": "This is a crafts store website. In this website, users can add products to the cart. Cart will show the selected product quantity and total price also. There is a choose again option to reset the cart. Products data are loaded from fake api. There is a blog section below products.",
         "tech": [
             "React",
             "React Bootstrap",

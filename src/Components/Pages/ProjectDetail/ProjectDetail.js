@@ -87,8 +87,9 @@ const ProjectDetail = ({ data, state, setState }) => {
                                         <ListItem sx={{
                                             padding: '1px 1px',
                                             borderRadius: '20px',
-                                            border: '1px solid #FFFFFF',
+                                            border: '2px solid #FFFFFF',
                                             mr: '5px',
+                                            mb:'5px',
                                             textAlign: 'center'
                                         }}>
                                             <ListItemText>
